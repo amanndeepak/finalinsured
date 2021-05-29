@@ -1,0 +1,19 @@
+<textarea
+  rows="5"
+  cols="60"
+  type="text"
+  [(ngModel)]="myname"
+  (keyup)="values()"
+>
+</textarea>
+
+<div *ngIf="id == '@'">
+  <h3 *ngFor="let c of codeList" (click)="selectvalue(c.name)">
+    {{c.name}}
+    <hr />
+  </h3>
+</div>
+<br>
+
+<button class="btn">&#43; ADD NOTE</button>
+<button class="btn secondary" (click)="reset()">RESET</button>
