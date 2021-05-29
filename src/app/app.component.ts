@@ -13,6 +13,15 @@ export class AppComponent {
 
   public id:any ;
 
+  // public multiselect() {
+    
+  //   this.codeList = Array.from({ length: 10000 }, (value, key) => key).map(
+  //     val => ({
+  //       name: `city ${val}`
+  //     })
+  //   );
+  // }
+
 
 
   public  codeList = [

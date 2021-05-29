@@ -1,3 +1,6 @@
+<!-- <ng-select [items]="codeList" bindLabel="name" [multiple]="true">
+</ng-select> -->
+
 <textarea
   rows="5"
   cols="60"
@@ -5,6 +8,7 @@
   [(ngModel)]="myname"
   (keyup)="values()"
 >
+
 </textarea>
 
 <div *ngIf="id == '@'">
